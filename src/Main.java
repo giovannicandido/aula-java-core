@@ -50,5 +50,22 @@ public class Main {
         return valoresDigitados;
     }
 
+    public static void somarMaisUm() {
+        int valor = 0;
+        valor = valor + 1;
+        valor += 67999;
+        valor -= 1;
+        valor /= 1;
+        valor *= 1;
+        valor++;
+        valor--;
+        --valor;
+        //
+        System.out.println(valor);
+
+        int resultado = --valor + 10;
+        resultado = valor-- + 10;
+    }
+
 
 }
