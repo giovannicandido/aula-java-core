@@ -15,5 +15,6 @@ public class ExemploCarteiraMotorista {
         } else {
             System.out.println("Você não pode dirigir!");
         }
+        entrada.close();
     }
 }
