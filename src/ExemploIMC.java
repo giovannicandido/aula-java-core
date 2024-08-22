@@ -12,19 +12,20 @@ public class ExemploIMC {
 //        String resultadoIMC = String.format("%.2f", imc);
 //        System.out.printf("IMC: %.2f\n", imc);
         System.out.printf("IMC: %s \n", imc);
-        if(imc < 18.5) {
+        if (imc < 18.5) {
             System.out.println("Você está magro(a)");
-        } else if(imc >= 18.5 && imc < 25) {
+        } else if (imc >= 18.5 && imc < 25) {
             System.out.println("Seu peso está normal");
-        } else if(imc >= 25 && imc < 30) {
+        } else if (imc >= 25 && imc < 30) {
             System.out.println("Você está com sobrepeso");
-        } else if(imc >= 30 && imc < 39) {
+        } else if (imc >= 30 && imc < 39) {
             System.out.println("Você está acima do peso");
-        } else if(imc >= 40) {
+        } else if (imc >= 40) {
             System.out.println("Você está com obsidade grave, por favor se cuide");
         }
 
     }
+
 
     public static float calcularIMC(float peso, float altura, int numeroCasas) {
 //        float imc = peso / (altura * altura);
