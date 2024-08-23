@@ -13,10 +13,11 @@ public class ExampleWhile {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int opcao = 10;
-        while (opcao != 0) {
+        int opcao = 0;
+        do {
             opcao = imprimirMenu();
-        }
+        } while (opcao != 0);
+
         System.out.println("Programa finalizado!");
         scanner.close();
     }
